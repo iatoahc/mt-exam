@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>醫檢師國考模擬程式</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- PWA Setup -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1976d2">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 啟動畫面 -->
+    <div id="home-screen" class="screen active">
+        <div class="glass-card home-card">
+            <h1><span class="icon">⚕️</span><br>醫檢師國考<br>模擬程式</h1>
+            <p>每科隨機抽取 30 題 (共6科)<br>限時 120 分鐘</p>
+            <button id="btn-start" class="btn-primary">開始測驗</button>
+        </div>
+    </div>
+
+    <!-- 測驗畫面 -->
+    <div id="exam-screen" class="screen">
+        <div class="top-bar">
+            <div class="progress-info">
+                <span id="subject-label" class="subject-badge">科目</span>
+                <span id="progress-text">1 / 180</span>
+            </div>
+            <div id="timer" class="timer">120:00</div>
+        </div>
+        
+        <div class="progress-bar-container">
+            <div id="progress-bar" class="progress-bar-fill"></div>
+        </div>
+
+        <div class="question-container scrollable">
+            <h2 id="question-text" class="question-text">載入中...</h2>
+            <div id="image-container" class="image-container"></div>
+            
+            <div class="options-container">
+                <label class="option-label" data-value="A">
+                    <input type="radio" name="answer" value="A">
+                    <div class="option-content">
+                        <span class="opt-key">A</span>
+                        <span id="opt-text-A" class="opt-text"></span>
+                    </div>
+                </label>
+                <label class="option-label" data-value="B">
+                    <input type="radio" name="answer" value="B">
+                    <div class="option-content">
+                        <span class="opt-key">B</span>
+                        <span id="opt-text-B" class="opt-text"></span>
+                    </div>
+                </label>
+                <label class="option-label" data-value="C">
+                    <input type="radio" name="answer" value="C">
+                    <div class="option-content">
+                        <span class="opt-key">C</span>
+                        <span id="opt-text-C" class="opt-text"></span>
+                    </div>
+                </label>
+                <label class="option-label" data-value="D">
+                    <input type="radio" name="answer" value="D">
+                    <div class="option-content">
+                        <span class="opt-key">D</span>
+                        <span id="opt-text-D" class="opt-text"></span>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <button id="btn-prev" class="btn-secondary">上一題</button>
+            <button id="btn-next" class="btn-primary">下一題</button>
+            <button id="btn-submit" class="btn-danger hide">交卷</button>
+        </div>
+    </div>
+
+    <!-- 結果畫面 -->
+    <div id="result-screen" class="screen">
+        <div class="top-bar sticky-top">
+            <h2>考試結果</h2>
+            <button id="btn-restart" class="btn-secondary">回首頁</button>
+        </div>
+        
+        <div class="result-container scrollable">
+            <div class="glass-card score-card">
+                <h3 class="total-score-title">總得分</h3>
+                <div id="total-score" class="score-number">--</div>
+                <div id="subject-scores" class="subject-scores-list"></div>
+            </div>
+            
+            <h3 class="review-title">錯題檢討與全卷解析</h3>
+            <div id="review-list" class="review-list">
+                <!-- 復盤列表將動態生成於此 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 全螢幕遮罩載入中 -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="spinner"></div>
+        <p>載入題庫中...</p>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // 註冊 Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('Service Worker 註冊成功'))
+                    .catch(err => console.log('Service Worker 註冊失敗', err));
+            });
+        }
+    </script>
+</body>
+</html>
