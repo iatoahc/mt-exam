@@ -137,6 +137,18 @@ button:active {
     z-index: 10;
 }
 
+.top-right-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 14px;
+    width: auto;
+}
+
 .progress-info {
     display: flex;
     align-items: center;

@@ -17,6 +17,7 @@ const Elements = {
     btnPrev: document.getElementById('btn-prev'),
     btnNext: document.getElementById('btn-next'),
     btnSubmit: document.getElementById('btn-submit'),
+    btnEarlySubmit: document.getElementById('btn-early-submit'),
     btnRestart: document.getElementById('btn-restart'),
     
     timer: document.getElementById('timer'),
@@ -214,6 +215,12 @@ Elements.btnPrev.addEventListener('click', () => {
 
 Elements.btnSubmit.addEventListener('click', () => {
     if (confirm('確定要交卷嗎？未作答的題目將不予計分。')) {
+        submitExam();
+    }
+});
+
+Elements.btnEarlySubmit.addEventListener('click', () => {
+    if (confirm('確定要提前交卷嗎？未作答的題目將不予計分。')) {
         submitExam();
     }
 });
