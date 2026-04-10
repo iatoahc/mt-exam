@@ -33958,11 +33958,14 @@
     },
     "answer": "B",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "108100"
+    "exam_id": "108100",
+    "images": [
+      "images\\108100-38.png"
+    ]
   },
   {
     "number": 39,
-    "question": "此尿沉渣結果與下列何者檢驗結果陽性最有相關性？",
+    "question": "承上題，此尿沉渣結果與下列何者檢驗結果陽性最有相關性？",
     "options": {
       "A": "pH",
       "B": "occult blood",
@@ -33971,11 +33974,14 @@
     },
     "answer": "C",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "108100"
+    "exam_id": "108100",
+    "images": [
+      "images\\108100-38.png"
+    ]
   },
   {
     "number": 40,
-    "question": "此尿液之外觀最可能為下列何者？",
+    "question": "承上題，此尿液之外觀最可能為下列何者？",
     "options": {
       "A": "黃色混濁",
       "B": "紅色混濁",
@@ -33984,7 +33990,10 @@
     },
     "answer": "A",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "108100"
+    "exam_id": "108100",
+    "images": [
+      "images\\108100-38.png"
+    ]
   },
   {
     "number": 41,
@@ -88938,20 +88947,23 @@
   },
   {
     "number": 1,
-    "question": "某病人這幾年健檢都被發現泛血球減 的特殊抗體，但周邊血液用流式細胞",
+    "question": "某病人這幾年健檢都被發現泛血球減少，而且好像越來愈厲害，尤其是貧血。 血液中沒有發現對抗紅血球的特殊抗體， 但周邊血液用流式細胞儀檢查結果如圖示。則此病人最可能罹患下列何種疾病",
     "options": {
       "A": "G6PD 缺乏症，俗稱的蠶豆症",
-      "B": "再生不良性貧血（aplastic anemi",
-      "C": "陣發性夜間血色素尿（paroxysmal",
-      "D": "陣發性冷性血色素尿（paroxysmal"
+      "B": "再生不良性貧血（ aplastic anemia, AA）",
+      "C": "陣發性夜間血色素尿（ paroxysmal nocturnal hemoglobinuria, PNH）",
+      "D": "陣發性冷性血色素尿（ paroxysmal cold hemoglobinuria, PCH）"
     },
     "answer": "C",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020"
+    "exam_id": "113020",
+    "images": [
+      "images\\113020_22_1.png"
+    ]
   },
   {
     "number": 2,
-    "question": "當病人鉛中毒時，下列何者會明顯出",
+    "question": "當病人鉛中毒時， 下列何者會明顯出現於病人周邊血液抹片的紅血球內",
     "options": {
       "A": "Howell-Jolly bodies",
       "B": "Siderotic granules",
@@ -88964,7 +88976,7 @@
   },
   {
     "number": 3,
-    "question": "葉酸以下列何種形式於血液中輸送至",
+    "question": "葉酸以下列何種形式於血液中輸送至細胞？",
     "options": {
       "A": "Dihydrofolate",
       "B": "Tetrahydrofolate 及技術人員高等考試醫師牙醫 及技術人員高等考試醫師牙醫 及技術人員高等考試醫師牙醫 及技術人員高等考試醫師牙醫 事檢驗師 事檢驗師 事檢驗師 事檢驗師、醫事放射師 醫事放射師 醫事放射師 醫事放射師、物理 物理 物理 物理 庫學 庫學 正確或最適當答案 正確或最適當答案 正確或最適當答案 正確或最適當答案。 少，而且好像越來愈厲害，尤其是貧血。血液 儀檢查結果如圖示。則此病人最可能罹患下列 a, AA） nocturnal hemoglobinuria, PNH） cold hemoglobinuria, PCH） 現於病人周邊血液抹片的紅血球內？ 細胞？ 醫師中醫師藥師考 醫師中醫師藥師考 醫師中醫師藥師考 醫師中醫師藥師考 理治療師考試 理治療師考試 理治療師考試 理治療師考試 座號 座號 座號 座號：___________ ___________ ___________ ___________ 液中沒有發現對抗紅血球 列何種疾病？",
@@ -88973,12 +88985,7 @@
     },
     "answer": "C",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020",
-    "images": [
-      "images\\113020_臨床血液學與血庫學_3_0.jpeg",
-      "images\\113020_臨床血液學與血庫學_3_1.jpeg",
-      "images\\113020_臨床血液學與血庫學_3_2.jpeg"
-    ]
+    "exam_id": "113020"
   },
   {
     "number": 4,
@@ -89177,12 +89184,12 @@
   },
   {
     "number": 19,
-    "question": "有關健康成人血液常規檢驗的敘述，下列何者正確？ћ白血球分型中，通常占最高比例的是嗜中性球 ќ白 血球分型中，通常占最低比例的是嗜酸性球 ѝMCV 是指每個RBC 的平均體積 ўMCH 是指每個RBC 內所含血 色素的平均濃度 џMCHC 是指每單位RBC 體積內所含血色素的平均濃度",
+    "question": "有關健康成人血液常規檢驗的敘述，下列何者正確？ (1)白血球分型中，通常占最高比例的是嗜中性球 (2)白血球分型中，通常占最低比例的是嗜酸性球 (3)MCV 是指每個 RBC 的平均體積 (4)MCH 是指每個 RBC 內所含血色素的平均濃度 (5)MCHC 是指每單位 RBC 體積內所含血色素的平均濃度",
     "options": {
-      "A": "ќѝў",
-      "B": "ћќў",
-      "C": "ћѝџ",
-      "D": "ќўџ"
+      "A": "(2)(3)(4)",
+      "B": "(1)(2)(4)",
+      "C": "(1)(3)(5)",
+      "D": "(2)(4)(5)"
     },
     "answer": "C",
     "subject": "臨床血液學與血庫學",
@@ -89390,23 +89397,26 @@
     "number": 35,
     "question": "有關如圖箭號所指的細胞，下列敘述",
     "options": {
-      "A": "常可見於chronic lymphocytic le",
+      "A": "常可見於chronic lymphocytic leukemia",
       "B": "是smudge cells",
       "C": "是basket cells",
-      "D": "是由於細胞骨架蛋白質vimentin 含"
+      "D": "是由於細胞骨架蛋白質vimentin 含量異常增加導致"
     },
     "answer": "D",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020"
+    "exam_id": "113020",
+    "images": [
+      "images\\113020_22_35.png"
+    ]
   },
   {
     "number": 36,
     "question": "有關慢性淋巴性白血病（chronic l",
     "options": {
       "A": "好發於年老族群",
-      "B": "腫瘤細胞上常伴隨有CD19、CD5 與",
-      "C": "定義上，clonal B cells 在周邊血",
-      "D": "大多數具有IGHV 基因高度突變（h"
+      "B": "腫瘤細胞上常伴隨有CD19、CD5 與CD23的表現",
+      "C": "定義上，clonal B cells 在周邊血應大於5x10^9/L",
+      "D": "大多數具有 IGHV 基因高度突變(hypermutation)的病人，預後較差"
     },
     "answer": "D",
     "subject": "臨床血液學與血庫學",
@@ -89416,7 +89426,7 @@
     "number": 37,
     "question": "下列何者不是造成neutropenia 的原",
     "options": {
-      "A": "Fulminant bacterial infection",
+      "A": "Fulminant bacterial infection (e.g.typhoid fever)",
       "B": "Systemic lupus erythematosus",
       "C": "Myelodysplastic syndrome",
       "D": "Hyposplenism"
@@ -89429,10 +89439,10 @@
     "number": 38,
     "question": "有關正常人T 細胞及B 細胞之敘述，",
     "options": {
-      "A": "T 細胞通常在thymus 發育成熟，B",
-      "B": "周邊血中，T 細胞約占淋巴球的20",
-      "C": "T 細胞標記為CD1、CD2、CD3、CD5",
-      "D": "細胞膜上的抗原受體：T 細胞是TCR"
+      "A": "T 細胞通常在thymus發育成熟，B細胞發育自 bone marrow",
+      "B": "周邊血中，T 細胞約占淋巴球的 20%，B 細胞約占淋巴球的 80%",
+      "C": "T 細胞標記為CD1、CD2、CD3、CD5、CD6、CD7，B 細胞為 CD19、CD20、CD22、 CD79",
+      "D": "細胞膜上的抗原受體：T 細胞是TCR，B細胞是BCR"
     },
     "answer": "B",
     "subject": "臨床血液學與血庫學",
@@ -89444,22 +89454,16 @@
     "options": {
       "A": "Interleukin-1",
       "B": "Stem cell factor",
-      "C": "Granulocyte colony-stimulating",
-      "D": "Macrophage/monocyte colony-sti"
+      "C": "Granulocyte colony-stimulating factor",
+      "D": "Macrophage/monocyte colony-stimulating factor"
     },
     "answer": "B",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020",
-    "images": [
-      "images\\113020_臨床血液學與血庫學_39_0.jpeg",
-      "images\\113020_臨床血液學與血庫學_39_1.jpeg",
-      "images\\113020_臨床血液學與血庫學_39_2.jpeg",
-      "images\\113020_臨床血液學與血庫學_39_3.jpeg"
-    ]
+    "exam_id": "113020"
   },
   {
     "number": 40,
-    "question": "25 歲女性因貧血易生瘀青就醫，CBC 10 9/L，骨髓抹片染色如圖，依序回答",
+    "question": "25歲女性因貧血易生瘀青就醫，CBC檢驗結果為WBC 40.6x10^9/L、RBC 2.05x10^12/L、Hb 6.2g/dL、PLT 2x10^9/L，骨髓抹片染色如圖，依序回答下列3題。此病人應是罹患下列哪種疾病？",
     "options": {
       "A": "Chronic myeloid leukemia",
       "B": "Acute promyelocytic leukemia",
@@ -89468,11 +89472,14 @@
     },
     "answer": "B",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020"
+    "exam_id": "113020",
+    "images": [
+      "images\\113020_22_40.png"
+    ]
   },
   {
     "number": 41,
-    "question": "此病例的骨髓細胞最有可能有下列那",
+    "question": "承上題，此病例的骨髓細胞最有可能有下列那種染色體轉位",
     "options": {
       "A": "t(9;22)",
       "B": "t(12;21)",
@@ -89485,11 +89492,11 @@
   },
   {
     "number": 42,
-    "question": "下列那種藥物最適合用於此病例？",
+    "question": "下列那種藥物最適合用於Acute promyelocytic leukemia？",
     "options": {
       "A": "Cytosine arabinoside",
       "B": "ATRA（all-trans retinoic acid）",
-      "C": "Tyrosine kinase inhibitor（Gle",
+      "C": "Tyrosine kinase inhibitor（Gleevec)",
       "D": "FLT3 inhibitor（midostaurin）"
     },
     "answer": "B",
@@ -89498,21 +89505,16 @@
   },
   {
     "number": 43,
-    "question": "下列四種口服抗凝血劑，何者主要不",
+    "question": "下列四種口服抗凝血劑，何者主要不是抑制活化型第十凝血因子？",
     "options": {
       "A": "Dabigatran",
       "B": "Rivaroxaban",
-      "C": "Apixaban factor mulating factor C 檢驗結果為WBC 40.6×10 9/L、RBC 2.05×10 12 答下列3 題。此病人應是罹患下列那種疾病？ 那種染色體轉位？ ） evec） 不是抑制活化型第十凝血因子？ /L、Hb 6.2g/dL、PLT 2×",
+      "C": "Apixaban",
       "D": "Edoxaban"
     },
     "answer": "A",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020",
-    "images": [
-      "images\\113020_臨床血液學與血庫學_43_0.jpeg",
-      "images\\113020_臨床血液學與血庫學_43_1.jpeg",
-      "images\\113020_臨床血液學與血庫學_43_2.jpeg"
-    ]
+    "exam_id": "113020"
   },
   {
     "number": 44,
@@ -89529,7 +89531,7 @@
   },
   {
     "number": 45,
-    "question": "一位帶有A 型血友病基因但凝血功能 常小孩的機率？",
+    "question": "一位帶有A 型血友病基因但凝血功能正常的女性與A 型血友病的男性結婚。  下列何者是他們生下凝血功能正常小孩的機率？",
     "options": {
       "A": "25%",
       "B": "50%",
@@ -89542,12 +89544,12 @@
   },
   {
     "number": 46,
-    "question": "有關vitamin K-dependent（VKD）凝",
+    "question": "有關vitamin K-dependent（VKD） 凝血相關因子的敘述，下列何者最適當？",
     "options": {
-      "A": "參與凝血與抗凝血作用者皆為seri",
-      "B": "其glutamic acid 轉變為γ-carbo",
-      "C": "其glutamic acid 轉變為γ-carbo",
-      "D": "其glutamic acid 轉變為γ-carbo"
+      "A": "參與凝血與抗凝血作用者皆為 serine protease",
+      "B": "其 glutamic acid 轉變為γ-carboxyglutamic acid主要是藉由γ-glutamyl hydroxylase的催化",
+      "C": "其 glutamic acid 轉變為γ-carboxyglutamic acid可增加與鈣離子的親和力",
+      "D": "其 glutamic acid 轉變為γ-carboxyglutamic acid需要氧化態維生素 K 作為輔酶"
     },
     "answer": "C",
     "subject": "臨床血液學與血庫學",
@@ -89555,12 +89557,12 @@
   },
   {
     "number": 47,
-    "question": "有關factor XIII 的檢測，下列何者",
+    "question": "有關factor XIII 的檢測，下列何者最適當？",
     "options": {
-      "A": "Factor XIII 缺乏的病人會有APTT",
-      "B": "Clot solubility test 是目前臨床",
-      "C": "正常人血液檢體所形成的clot 在5",
-      "D": "可以使用1% monochloroacetic ac"
+      "A": "Factor XIII 缺乏的病人會有APTT正常、PT 延長的現象",
+      "B": "Clot solubility test 是目前臨床上唯一可以檢測factor XIII 的方法",
+      "C": "正常人血液檢體所形成的clot 在5M Urea溶液中反應，應在2小時內溶解",
+      "D": "可以使用1% monochloroacetic acid 或 2% acetic acid 進行 clot 溶解試驗"
     },
     "answer": "D",
     "subject": "臨床血液學與血庫學",
@@ -89568,12 +89570,12 @@
   },
   {
     "number": 48,
-    "question": "箭號所指的為何種細胞，而其細胞核",
+    "question": "箭號所指的為何種細胞，而其細胞核特別之處為何？",
     "options": {
       "A": "Megakaryocyte，核內染色體為雙套",
       "B": "Megakaryocyte，核內染色體為多套",
       "C": "Myeloma cell，染色體為非整倍體",
-      "D": "Histiocyte，染色體常有DNA copy 能正常的女性與A 型血友病的男性結婚。下列何 凝血相關因子的敘述，下列何者最適當？ ine protease xyglutamic acid 主要是藉由γ-glutamyl hy xyglutamic acid 可增加與鈣離子的親和力 xyglutamic acid 需要氧化態維生素K 作為輔 者最適當？ T 正常、PT 延長的現象 床上唯一可以檢測factor XIII 的方法 5 M Urea 溶液中反應，應在2 小時內溶解 cid 或2% acetic acid 進行clot 溶解試驗 核特別之處為何？ 套體（2N） 套體（通常為4N～64N） 異常（aneuploid） y number 之異常 何者是他們生下凝血功能正 ydroxylase 的催化 輔酶"
+      "D": "Histiocyte，染色體常有DNA copy number之異常"
     },
     "answer": "B",
     "subject": "臨床血液學與血庫學",
@@ -89581,7 +89583,7 @@
   },
   {
     "number": 49,
-    "question": "圖示為activated protein C 參與抗",
+    "question": "圖示為activated protein C 參與抗凝血作用，則123分別為何種蛋白質？",
     "options": {
       "A": "Protein S，FVa，FVIIIa",
       "B": "Protein S，FIIa，FXa",
@@ -89590,11 +89592,14 @@
     },
     "answer": "A",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020"
+    "exam_id": "113020",
+    "images": [
+      "images\\113020_22_49.png"
+    ]
   },
   {
     "number": 50,
-    "question": "Fibrin 經cross-linking 後形成不可",
+    "question": "Fibrin 經 cross-linking 後形成不可溶之纖維蛋白過程如圖示，凝血因子(1)跟(2)分別為何？",
     "options": {
       "A": "Thrombin，factor XIII",
       "B": "Thrombin，plasmin",
@@ -89603,27 +89608,33 @@
     },
     "answer": "A",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020"
+    "exam_id": "113020",
+    "images": [
+      "images\\113020_22_50.png"
+    ]
   },
   {
     "number": 51,
-    "question": "Lupus anticoagulant 相關疾病及後 關。下列比較何者錯誤？ Lupus ћ相關臨床症狀 栓塞症 ќ抗體之特性 自體抗 ѝ抗體所對應之抗原 磷脂質 ўAPTT 檢測（及加入 platelet lysate） APTT 延 可以矯",
+    "question": "Lupus anticoagulant 相關疾病及後天性A 型血友病（acquired hemophilia A) ，兩者之病因均與抗體有相關。下列比較何者錯誤？",
     "options": {
-      "A": "ћ",
-      "B": "ќ",
-      "C": "ѝ",
-      "D": "ў"
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
     },
     "answer": "B",
     "subject": "臨床血液學與血庫學",
-    "exam_id": "113020"
+    "exam_id": "113020",
+    "images": [
+      "images\\113020_22_51.png"
+    ]
   },
   {
     "number": 52,
-    "question": "Hemophilia B 之檢驗結果，下列何",
+    "question": "Hemophilia B 之檢驗結果，下列何者正確？",
     "options": {
-      "A": "PT 正常、APTT 延長、TT 延長、PFA",
-      "B": "PT 正常、APTT 延長、TT 正常、PFA 抗凝血作用，則ћќѝ分別為何種蛋白質？ 可溶之纖維蛋白過程如圖示，凝血因子ћ及ќ 後天性A 型血友病（acquired hemophilia A） s anticoagulant 相關抗體 造成acquired 體 症狀、流產 出血症狀 抗體 異體抗體 質 凝血因子 延長，加入platelet lysate 矯正 APTT 延長，加 無法矯正 者正確？ A-100 closure time 正常 A-100 closure time 正常 ќ分別為何？ ，兩者之病因均與抗體有相 d hemophilia A 之抗 加入platelet lysate",
+      "A": "PT 正常、APTT 延長、TT 延長、PFA-100 closure time 正常",
+      "B": "PT 正常、APTT 延長、TT 正常、PFA-100 closure time 正常",
       "C": "PT 延長、APTT 延長、TT 延長、PFA-100 closure time 正常",
       "D": "PT 正常、APTT 延長、TT 正常、PFA-100 closure time 延長"
     },
@@ -89685,12 +89696,12 @@
   },
   {
     "number": 57,
-    "question": "下列何者為APTT 試驗所需的試劑？ћ活化劑，例如celite ќphospholipid ѝtissue factor ў thrombin џ鈣離子",
+    "question": "下列何者為 APTT 試驗所需的試劑？ (1)活化劑，例如 celite (2)phospholipid (3)tissue factor (4)thrombin (5)鈣離子",
     "options": {
-      "A": "ћќџ",
-      "B": "ћѝў",
-      "C": "ќѝџ",
-      "D": "ћўџ"
+      "A": "125",
+      "B": "134",
+      "C": "235",
+      "D": "145"
     },
     "answer": "A",
     "subject": "臨床血液學與血庫學",
@@ -89793,7 +89804,7 @@
     "options": {
       "A": "過濾法效果最佳",
       "B": "鹽水洗滌法之減除血品存放不得超過24 小時",
-      "C": "每單位血品白血球含量應低於5×10 6",
+      "C": "每單位血品白血球含量應低於5×10^6",
       "D": "倒置離心法可去除99.9%白血球"
     },
     "answer": "D",
@@ -89934,10 +89945,10 @@
     "number": 76,
     "question": "有關血庫試劑允收標準之說明，下列何者正確？",
     "options": {
-      "A": "僅ћ",
-      "B": "僅ќѝ",
-      "C": "僅ћѝ",
-      "D": "僅ќ"
+      "A": "僅1",
+      "B": "僅23",
+      "C": "僅13",
+      "D": "僅2"
     },
     "answer": "A",
     "subject": "臨床血液學與血庫學",
@@ -89963,10 +89974,10 @@
     "number": 78,
     "question": "AABB 規範血小板分離術所得的每袋血小板數量應至少為下列何者？",
     "options": {
-      "A": "3.0×10 9",
-      "B": "3.0×10 10",
-      "C": "3.0×10 11",
-      "D": "3.0×10 12"
+      "A": "3.0×109",
+      "B": "3.0×1010",
+      "C": "3.0×1011",
+      "D": "3.0×1012"
     },
     "answer": "C",
     "subject": "臨床血液學與血庫學",
