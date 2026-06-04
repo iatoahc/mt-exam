@@ -22,8 +22,43 @@
     <div id="home-screen" class="screen active">
         <div class="glass-card home-card">
             <h1><span class="icon">⚕️</span><br>醫檢師國考<br>模擬程式</h1>
-            <p>每科隨機抽取 30 題 (共6科)<br>限時 120 分鐘</p>
-            <button id="btn-start" class="btn-primary">開始測驗</button>
+            
+            <div class="config-section">
+                <div class="config-header">
+                    <h3>選擇測驗科目</h3>
+                    <div class="config-actions">
+                        <span id="btn-select-all" class="text-link">全選</span>
+                        <span id="btn-select-none" class="text-link">清除</span>
+                    </div>
+                </div>
+                <div id="subject-select-list" class="subject-select-list">
+                    <!-- 由 JS 動態產生 -->
+                </div>
+            </div>
+
+            <div class="config-section">
+                <h3>每科抽選題數</h3>
+                <div class="q-count-options">
+                    <label class="q-count-label">
+                        <input type="radio" name="q-count" value="30" checked>
+                        <div class="q-count-btn">30 題 (快速)</div>
+                    </label>
+                    <label class="q-count-label">
+                        <input type="radio" name="q-count" value="80">
+                        <div class="q-count-btn">80 題 (完整)</div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="config-summary">
+                <p id="exam-config-desc">載入中...</p>
+            </div>
+
+            <div class="home-actions">
+                <button id="btn-start" class="btn-primary">開始測驗</button>
+                <button id="btn-resume" class="btn-secondary hide" style="margin-top: 10px;">⚡ 恢復未完成測驗</button>
+                <button id="btn-view-last" class="btn-secondary hide" style="margin-top: 10px;">📊 查看上次測驗結果</button>
+            </div>
         </div>
     </div>
 
@@ -99,6 +134,7 @@
                 <h3 class="total-score-title">總得分</h3>
                 <div id="total-score" class="score-number">--</div>
                 <div id="subject-scores" class="subject-scores-list"></div>
+                <button id="btn-download-record" class="btn-primary" style="margin-top: 20px; width: 100%;">📥 下載本次作答紀錄 (HTML)</button>
             </div>
             
             <h3 class="review-title">錯題檢討與全卷解析</h3>
