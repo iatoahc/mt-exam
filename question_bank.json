@@ -5275,7 +5275,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "106020"
+    "exam_id": "106020",
+    "explanation": "CD2: mature T and NK; CD21: mature B and follicular DC; CD32: neutraphil and specialized endothelial cells"
   },
   {
     "number": 4,
@@ -5288,7 +5289,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "106020"
+    "exam_id": "106020",
+    "explanation": "Tc細胞作用需要MHC分子"
   },
   {
     "number": 5,
@@ -119111,7 +119113,8 @@
     },
     "answer": "A",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(B)CIN2&3, E2缺失, E6 and E7高度表現 (C)L1&L2 (D)用以檢測疫苗效價的方法"
   },
   {
     "number": 60,
@@ -119124,7 +119127,8 @@
     },
     "answer": "B",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "先天性失聰"
   },
   {
     "number": 61,
@@ -119137,7 +119141,8 @@
     },
     "answer": "B",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "分離=可於cell culture內培養"
   },
   {
     "number": 62,
@@ -119150,7 +119155,8 @@
     },
     "answer": "A",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(B)(C)HBsAg(-)即無感染 (D)初期感染或近期有施打疫苗"
   },
   {
     "number": 63,
@@ -119176,7 +119182,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(A)HHV6 (B)parvovirus B19 (D)Enterovirus (Coxsackievirus B, Echovirus)"
   },
   {
     "number": 65,
@@ -119215,7 +119222,8 @@
     },
     "answer": "B",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "HDV 需要HBV的外套膜才可形成有感染力的病毒顆粒"
   },
   {
     "number": 68,
@@ -119228,7 +119236,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "HCoV-NL63/ACE2"
   },
   {
     "number": 69,
@@ -119241,7 +119250,8 @@
     },
     "answer": "B",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "Influenza A&B: 8 segments, C&D: 7 segments"
   },
   {
     "number": 70,
@@ -119254,7 +119264,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "F 蛋白與\"HN or G 蛋白(RSV only) \"會黏附在一起"
   },
   {
     "number": 71,
@@ -119267,7 +119278,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "僅有一種血清型（serotype）及\"七種\"基因型（genotype）"
   },
   {
     "number": 72,
@@ -119280,7 +119292,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(A)Matonaviridae (B)+ssRNA (D)有MMR疫苗"
   },
   {
     "number": 73,
@@ -119293,7 +119306,8 @@
     },
     "answer": "A",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(B)有sgRNA (C)痘病毒poxvirus (D)鼻病毒rhinovirus"
   },
   {
     "number": 74,
@@ -119306,7 +119320,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(A)4種 (B)活性減毒疫苗（Live-attenuated vaccines） (C)不同型別"
   },
   {
     "number": 75,
@@ -119319,7 +119334,8 @@
     },
     "answer": "A",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(B)非洲跟\"亞洲\" (C)無專一性藥物 (D)主要由埃及斑蚊與白線斑蚊傳播 (但性行為亦可傳播)"
   },
   {
     "number": 76,
@@ -119332,7 +119348,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "RSV藉由G protein結合到細胞表面上，並以F protein融合病毒外套膜與細胞膜"
   },
   {
     "number": 77,
@@ -119345,7 +119362,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "以\"Trimer\"的型態存在"
   },
   {
     "number": 78,
@@ -119358,7 +119376,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "是VP4與\"VP7\""
   },
   {
     "number": 79,
@@ -119371,7 +119390,8 @@
     },
     "answer": "A",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "節媒病毒包含登革熱病毒、屈公病毒、茲卡病毒等，其中許多病毒目前尚無有效疫苗可供接種"
   },
   {
     "number": 80,
@@ -119384,6 +119404,7 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": " HAV 對於強酸環境（如 pH < 3.0 的胃酸）的耐受力極佳，因此病毒可以完整通過強酸的胃部，進而進入腸道引起感染。"
   }
 ]
