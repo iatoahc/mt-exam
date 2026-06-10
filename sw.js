@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mt-exam-v2';
+const CACHE_NAME = 'mt-exam-v3';
 const ASSETS_TO_CACHE = [
     '/',
     '/index.html',

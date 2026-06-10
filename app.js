@@ -111,15 +111,68 @@ function generateExam() {
     
     selectedSubjs.forEach(subj => {
         const groupList = State.questionsGrouped[subj] || [];
-        // Shuffle groups
-        const shuffledGroups = [...groupList].sort(() => 0.5 - Math.random());
-        let selectedForSubj = [];
-        let count = 0;
         
-        for (const group of shuffledGroups) {
-            if (count >= targetPerSubj && count > 0) break;
+        // 將題目群組分類為 110年及以後 (新) 與 110年以前 (舊)
+        const newGroups = [];
+        const oldGroups = [];
+        
+        groupList.forEach(group => {
+            if (group.length === 0) return;
+            const examIdStr = String(group[0].exam_id || '');
+            const year = parseInt(examIdStr.substring(0, 3));
+            if (year >= 110) {
+                newGroups.push(group);
+            } else {
+                oldGroups.push(group);
+            }
+        });
+        
+        // 各自隨機洗牌
+        const shuffledNew = [...newGroups].sort(() => 0.5 - Math.random());
+        const shuffledOld = [...oldGroups].sort(() => 0.5 - Math.random());
+        
+        let selectedForSubj = [];
+        let newQCount = 0;
+        let oldQCount = 0;
+        
+        // 目標：新題目佔 60% (例如 30 題中的 18 題)，舊題目佔 40% (例如 30 題中的 12 題)
+        const targetNew = Math.round(targetPerSubj * 0.6);
+        
+        // 1. 抽取 110 年之後的題目 (主範圍 60%)
+        let newIdx = 0;
+        for (; newIdx < shuffledNew.length; newIdx++) {
+            const group = shuffledNew[newIdx];
+            if (newQCount >= targetNew && newQCount > 0) break;
             selectedForSubj = selectedForSubj.concat(group);
-            count += group.length;
+            newQCount += group.length;
+        }
+        
+        // 2. 抽取 110 年之前的題目 (次範圍 40%)
+        let oldIdx = 0;
+        for (; oldIdx < shuffledOld.length; oldIdx++) {
+            const group = shuffledOld[oldIdx];
+            if ((newQCount + oldQCount) >= targetPerSubj && oldQCount > 0) break;
+            selectedForSubj = selectedForSubj.concat(group);
+            oldQCount += group.length;
+        }
+        
+        // 3. 補位機制：如果其中一邊題目不夠，再拿另外一邊剩下的題目補滿目標總題數
+        if ((newQCount + oldQCount) < targetPerSubj && newIdx < shuffledNew.length) {
+            for (; newIdx < shuffledNew.length; newIdx++) {
+                const group = shuffledNew[newIdx];
+                if ((newQCount + oldQCount) >= targetPerSubj) break;
+                selectedForSubj = selectedForSubj.concat(group);
+                newQCount += group.length;
+            }
+        }
+        
+        if ((newQCount + oldQCount) < targetPerSubj && oldIdx < shuffledOld.length) {
+            for (; oldIdx < shuffledOld.length; oldIdx++) {
+                const group = shuffledOld[oldIdx];
+                if ((newQCount + oldQCount) >= targetPerSubj) break;
+                selectedForSubj = selectedForSubj.concat(group);
+                oldQCount += group.length;
+            }
         }
         
         State.examQuestions = State.examQuestions.concat(selectedForSubj);
