@@ -25462,10 +25462,10 @@
     "number": 30,
     "question": "慢性肺氣腫之病患易發⽣下列何種現象？",
     "options": {
-      "A": " 及 FEV1均下降",
-      "B": " 及 FEV1均上升",
-      "C": " 下降及 FEV1上升",
-      "D": " 上升且 FEV1下降"
+      "A": " PCO2 及 FEV1均下降",
+      "B": "  PCO2 及 FEV1均上升",
+      "C": "  PCO2 下降及 FEV1上升",
+      "D": "  PCO2 上升且 FEV1下降"
     },
     "answer": "D",
     "subject": "臨床生理學與病理學",
@@ -115198,7 +115198,8 @@
     },
     "answer": "D",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "Apo（複消色差，Apochromat）：代表頂級的像差校正能力；40X（放大倍率）：代表物鏡本身的放大倍率為 40 倍。0.95（數值孔徑，Numerical Aperture）：簡寫為 NA 0.95。此數值決定了鏡頭的解析度與進光量；160（機械筒長）：表示該物鏡專為機械管長 160 mm 的有限遠光學系統所設計；-（蓋玻片厚度限制）：橫槓「-」代表無論使不使用蓋玻片皆可觀察"
   },
   {
     "number": 2,
@@ -115211,7 +115212,8 @@
     },
     "answer": "A",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(B) 空氣折射率約為1、鏡油約為1.5 (C)物鏡孔徑值NA=n(折射率)xsinα，折射率增加NA也會增加 (D)解析度r=0.61λ/NA，因此孔徑越大解析度越好"
   },
   {
     "number": 3,
@@ -115237,7 +115239,8 @@
     },
     "answer": "C",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "尿液膽紅素（Bilirubin）：呈陽性（+）膽道阻塞會使具有水溶性的「直接膽紅素」無法排入腸道而逆流入血。當血中濃度升高，便會經由腎臟過濾排至尿液中。尿膽素原（Urobilinogen）：減少或陰性（Normal 或 —）尿膽素原是由腸道內的膽紅素代謝而來。因為膽汁阻塞無法進入腸道，腸內的生成作用中斷，導致尿中的尿膽素原顯著減少，甚至完全缺乏。"
   },
   {
     "number": 5,
@@ -115250,7 +115253,8 @@
     },
     "answer": "D",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "尿液培養主要看細菌感染=免疫反應上升，故一定有白血球跟亞硝酸鹽(特定細菌代謝產物)，ketone用於評估脂肪代謝狀況，pH用於評估結石/痛風"
   },
   {
     "number": 6,
@@ -115263,7 +115267,8 @@
     },
     "answer": "D",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "Clinitest 是一種基於「銅還原反應」的檢驗錠劑，主要用於檢測尿液中是否含有各類「還原糖」（包含葡萄糖、半乳糖、果糖、乳糖等）"
   },
   {
     "number": 7,
@@ -115276,11 +115281,15 @@
     },
     "answer": "C",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "images": [
+      "images\\8807.jpg"
+    ],
+    "explanation": "出芽生殖!!!"
   },
   {
     "number": 8,
-    "question": "此尿液檢體在臨床上最可能出現於下列何種病人？",
+    "question": "具有此尿沉渣結果之尿液檢體在臨床上最可能出現於下列何種病人？",
     "options": {
       "A": "痛風",
       "B": "糖尿病",
@@ -115289,11 +115298,15 @@
     },
     "answer": "B",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "images": [
+      "images\\8807.jpg"
+    ],
+    "explanation": "糖尿病患者因免疫力較弱且尿液含糖，容易併發泌尿道或陰道念珠菌感染。"
   },
   {
     "number": 9,
-    "question": "此尿液檢體在尿試紙檢驗結果中，下列何者最有可能陽性？",
+    "question": "具有此尿沉渣結果之尿液檢體在尿試紙檢驗結果中，下列何者最有可能陽性？",
     "options": {
       "A": "bilirubin",
       "B": "urobilinogen",
@@ -115302,7 +115315,11 @@
     },
     "answer": "C",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "images": [
+      "images\\8807.jpg"
+    ],
+    "explanation": "感染症會誘發免疫反應，白血球酯酶會上升"
   },
   {
     "number": 10,
@@ -115316,10 +115333,7 @@
     "answer": "B",
     "subject": "醫學分子檢驗學與臨床",
     "exam_id": "115020",
-    "images": [
-      "images\\115020_醫學分子檢驗學與臨床_10_0.jpx",
-      "images\\115020_醫學分子檢驗學與臨床_10_1.jpx"
-    ]
+    "explanation": "(A) myoglobin: 心肌梗塞與骨骼肌受損 (C)腎臟過濾功能異常 (D)糖尿病"
   },
   {
     "number": 11,
@@ -115332,7 +115346,8 @@
     },
     "answer": "B",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "當人體代謝蛋白質產生有毒的「氨」（血氨）時，肝臟會透過耗氧的「尿素循環」將其轉化為毒性較低的尿素。隨後，尿素會進入血液，經由腎臟過濾並隨尿液排出體外"
   },
   {
     "number": 12,
@@ -115345,7 +115360,8 @@
     },
     "answer": "D",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(A)腎絲球性蛋白尿 (Glomerular Proteinuria): 最常見的蛋白尿類型。當腎臟的「過濾屏障」（腎絲球基底膜）因免疫、發炎、感染或糖尿病、高血壓等系統性疾病受損時，原本無法通過的蛋白質會大量漏出。偵測: 大分子的白蛋白 (Albumin) (B)腎小管性蛋白尿 (Tubular Proteinuria): 腎絲球過濾正常，但負責「回收」有用蛋白質的腎小管受損，導致無法將原本被濾出的小分子蛋白質重新吸收回血液中。偵測以小分子的球蛋白或醣蛋白為主 (C) 腎臟本身未受損，但血液中產生了異常過多、超出正常分子量的蛋白質（輕鏈蛋白等），導致腎絲球在過濾時「來不及處理」，溢出到尿液中。(D)病變不在腎臟本身，而是發生在輸尿管、膀胱或尿道等「腎臟之後」的泌尿道系統。通常會合併明顯的血尿或白血球"
   },
   {
     "number": 13,
@@ -115358,7 +115374,8 @@
     },
     "answer": "B",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "膽道阻塞會有灰白色便便 (D)Rifampin 本身就是一種紅棕色的膠囊，當它在體內代謝時，其色素會隨著人體的分泌物與排泄物排出"
   },
   {
     "number": 14,
@@ -115371,7 +115388,8 @@
     },
     "answer": "A",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "這是最普遍的功能性腸胃道障礙。當承受壓力、情緒緊張或飲食不適時，會導致大腸平滑肌異常收縮（大腸痙攣）。這種腸道管腔部分收縮變窄的狀態，會使糞便在擠壓下呈現如鉛筆般細長或扁平的帶狀。"
   },
   {
     "number": 15,
@@ -115384,7 +115402,8 @@
     },
     "answer": "A",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "HemoQuant 是一種用於定量檢測糞便中血紅素（Hemoglobin）的醫學檢驗方法，主要用於篩檢胃腸道出血。它不受飲食成分或維生素C的干擾，透過化學反應將血紅素轉化為紫質（porphyrin）並利用螢光技術進行精確測量。"
   },
   {
     "number": 16,
@@ -115397,7 +115416,8 @@
     },
     "answer": "B",
     "subject": "醫學分子檢驗學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "血紅素的血紅質（heme）氧化分解會導致褐色"
   },
   {
     "number": 17,
@@ -116050,7 +116070,7 @@
       "C": "RealTime（Abbott）檢測HIV-1，是利用RT-qPCR 去偵測pol",
       "D": "RealTime（Abbott）檢測HCV，是利用RT-qPCR 去偵測5' UTR"
     },
-    "answer": "C",
+    "answer": "ABCD",
     "subject": "醫學分子檢驗學與臨床",
     "exam_id": "115020"
   },
@@ -118749,7 +118769,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "全身性紅斑狼瘡（SLE） 的抗核抗體（ANA）陽性率最高，高達 95% 以上，甚至可達 100%，漸進性全身性硬化症（Progressive Systemic Sclerosis, PSS，即硬皮症），其 ANA 陽性率高達 85至 95。"
   },
   {
     "number": 32,
@@ -118762,7 +118783,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "IL-3（介白素-3）： 主要功能為促進造血幹細胞分化與肥大細胞生長，較少直接作為引發急性免疫複合體沉積發炎的介質。IL-33（介白素-33）： 屬於細胞核細胞激素，主要與過敏反應、氣喘等第2型免疫反應（Th2）較相關，非SLE免疫複合體沉積的主要發炎因子。kinin（激肽）： 參與血管舒張與增加血管通透性，促進發炎反應時的紅腫與疼痛。prostaglandin（前列腺素）： 強力的發炎介質，參與引起發燒、疼痛及血管擴張。"
   },
   {
     "number": 33,
@@ -118775,7 +118797,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "因為是CSF，請選擇和神經有關的選項XD"
   },
   {
     "number": 34,
@@ -118788,7 +118811,8 @@
     },
     "answer": "A",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(A) 兩個不同\"個體\"的淋巴細胞混合共培養，評估免疫細胞間的「非自体」辨識 與增殖反應"
   },
   {
     "number": 35,
@@ -118805,7 +118829,7 @@
   },
   {
     "number": 36,
-    "question": "下列何者屬於核磷酸化蛋白質（nuclear phosphoprotein），具有誘導細胞停止生長、DNA 修復和細胞凋亡 的功能？",
+    "question": "下列何者屬於核磷酸化蛋白質（nuclear phosphoprotein），具有誘導細胞停止生長、DNA 修復和細胞凋亡的功能？",
     "options": {
       "A": "Myc",
       "B": "K-ras",
@@ -118814,7 +118838,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(A)(B) oncogene, 增加Cell proliferation (C)Anti-apoptotic protein only"
   },
   {
     "number": 37,
@@ -118827,11 +118852,12 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "B=D，但因為問的是\"優勢\"，所以要選擇正面描述之答案"
   },
   {
     "number": 38,
-    "question": "免疫監視下抵抗清除階段（elimination phase）的變異腫瘤細胞，會招募下列何種細胞保護自己進入逃脫階 段（escape phase）？",
+    "question": "免疫監視下抵抗清除階段（elimination phase）的變異腫瘤細胞，會招募下列何種細胞保護自己進入逃脫階段（escape phase）？",
     "options": {
       "A": "NK cells",
       "B": "CD8 T cells",
@@ -118853,7 +118879,8 @@
     },
     "answer": "B",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(A)可增強 (C)常見的佐劑包括鋁鹽、油脂類佐劑-鯊烯（MF59）及 Lipid A (LPS) (D)可增強細胞免疫反應"
   },
   {
     "number": 40,
@@ -118866,7 +118893,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "M2 macrophages 可抑制發炎、促進組織修復和血管新生並協助腫瘤生長"
   },
   {
     "number": 41,
@@ -118879,20 +118907,22 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "EBV無Hemagglutinin or 類似功能之蛋白"
   },
   {
     "number": 42,
-    "question": "如果沒有急性期與恢復期的成對血清來比較IgG 效價高低時，可用IgG avidity 來判斷患者是否為近期感 染。下列敘述何者錯誤？",
+    "question": "如果沒有急性期與恢復期的成對血清來比較IgG 效價高低時，可用IgG avidity 來判斷患者是否為近期感染。下列敘述何者錯誤？",
     "options": {
       "A": "可使用avidity EIA 來測",
-      "B": "近期感染的IgG，avidity 高",
+      "B": "近期感染的IgG，avidity高",
       "C": "urea 可破壞抗體氫鍵",
       "D": "urea 可移除avidity 低的抗體"
     },
     "answer": "B",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "感染時間越久、越成熟的IgG，Avidity越高"
   },
   {
     "number": 43,
@@ -118903,13 +118933,14 @@
       "C": "dNTP",
       "D": "HSV-1 specific primers"
     },
-    "answer": "A",
+    "answer": "AD",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "CMV為DNA病毒且需要的是CMV specific primer"
   },
   {
     "number": 44,
-    "question": "某些病毒在感染後能潛伏在健康成人體內，但對於免疫不全的病人來說這些病毒可造成伺機感染。有關此現 象，下列敘述何者錯誤？",
+    "question": "某些病毒在感染後能潛伏在健康成人體內，但對於免疫不全的病人來說這些病毒可造成伺機感染。有關此現象，下列敘述何者錯誤？",
     "options": {
       "A": "巨細胞病毒在免疫不全的病人中可能造成致死性的神經系統感染",
       "B": "麻疹病毒在免疫不全的病人可造成巨細胞肺炎（giant cell syncytial pneumonia）",
@@ -118918,7 +118949,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "引發腎病變(BKVN)或泌尿道發炎"
   },
   {
     "number": 45,
@@ -118931,7 +118963,8 @@
     },
     "answer": "B",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "目前FDA approved用於2-18歲"
   },
   {
     "number": 46,
@@ -118944,7 +118977,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "以NP或M作為抗原"
   },
   {
     "number": 47,
@@ -118957,7 +118991,8 @@
     },
     "answer": "B",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "Shell vial 無法以一邊光學顯微鏡進行觀察"
   },
   {
     "number": 48,
@@ -118970,7 +119005,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "人類巨細胞病毒臨床主要使用fibroblast cells來分離，如HEL, MRC5"
   },
   {
     "number": 49,
@@ -118983,7 +119019,8 @@
     },
     "answer": "A",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(B)用藥有一定相關性但臨床症狀不同 (C)HIV VL-RNA;HBV VL-DNA (D) HIV伺機性感染/HBV肝癌"
   },
   {
     "number": 50,
@@ -118996,7 +119033,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "解凍細胞時放在\"37度水浴\"中讓其\"快速\"溶解"
   },
   {
     "number": 51,
@@ -119009,7 +119047,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "同一種病毒對不同細胞的感染能力差異極大"
   },
   {
     "number": 52,
@@ -119035,7 +119074,8 @@
     },
     "answer": "C",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "HTLV-II的致病情形目前仍不清楚"
   },
   {
     "number": 54,
@@ -119048,7 +119088,8 @@
     },
     "answer": "A",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "感染後再次復發時會引起皮蛇(Zooster)"
   },
   {
     "number": 55,
@@ -119061,7 +119102,8 @@
     },
     "answer": "D",
     "subject": "臨床血清免疫學與臨床",
-    "exam_id": "115020"
+    "exam_id": "115020",
+    "explanation": "(A)定病毒量 (B)其他哺乳類跟禽鳥類也可以 (C)需要RDE前處理"
   },
   {
     "number": 56,
